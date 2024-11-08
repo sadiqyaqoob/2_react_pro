@@ -1,5 +1,6 @@
 import "./App.css";
-import Contact_Header from "./components/Contact_Header/contact_header";
+import ContactHeader from "./components/Contact_Header/Contact_Header";
+
 import ContactForm from "./components/ContactForm/ContactForm";
 import Navigation from "./components/Navigation/Navigation";
 
@@ -8,8 +9,8 @@ function App() {
     <div>
       <Navigation />
       <div className="main_container">
-      <Contact_Header />
-      <ContactForm/>
+        <ContactHeader />
+        <ContactForm />
       </div>
     </div>
   );
